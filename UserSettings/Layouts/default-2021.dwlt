@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 588.6667
     width: 1282.6666
     height: 398.6667
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Fonts
+    - Assets/Spirits
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Fonts
+  - Assets/Spirits
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Unity\\Work\\[]\u7476\u7476~\\YaoYao_DiaoYu"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 36670000
-    m_LastClickedID: 26422
-    m_ExpandedIDs: 000000002667000000ca9a3bffffff7f
+    m_SelectedIDs: 4a670000
+    m_LastClickedID: 26442
+    m_ExpandedIDs: 000000003467000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026670000
+    m_ExpandedIDs: 0000000034670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,8 +386,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 409a0100
-    m_LastClickedInstanceID: 105024
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
@@ -491,9 +491,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 409a0100
-      m_LastClickedID: 105024
-      m_ExpandedIDs: b2a8fffff6a8ffff5ca9ffff54aeffff98aefffff8aeffffe6afffff2ab0ffffc4b1ffffdec3ffff24c4ffffc0c5ffff26fbffffba5d0000f05f0000ce600000f460000046610000726200009e620000fe640000606500008e650000ba650000ce65000008660000386600009e660000dcab0000bcac0000e2ac000004ad000034ad000060ae000002b0000082b00000bcb10000f6b1000026b200008cb20000e66901001c6a0100ea6a0100906b0100f26b0100226c0100fa6c01001e6d0100486d0100346e0100aa6e0100be6e0100f86e01001a6f010020700100b2700100c670010072710100aa710100c8710100e8710100fa7101001e7201007a720100089e0100649f010086a1010008a20100
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d4f3ffff1af4ffff42f4ffff08f6ffff4ef6ffffaaf7ffff26fbffff76620000a882000006830000de840000ea840000da8500003c860000588600002087000066870000d6870000e2870000028800001c8a0000668a0000c88a0000708b0000a48b00000a8c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -798,9 +798,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 423.87195, y: 313.0593, z: 28.123493}
+    m_Target: {x: 449.01306, y: 304.26016, z: 28.732044}
     speed: 2
-    m_Value: {x: 423.87195, y: 313.0593, z: 28.123493}
+    m_Value: {x: 449.01306, y: 304.26016, z: 28.732044}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0

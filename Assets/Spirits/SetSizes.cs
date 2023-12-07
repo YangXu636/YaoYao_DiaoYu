@@ -142,7 +142,7 @@ public class SetSizes : MonoBehaviour
                     for (i=0;i< Buttons_setsize.Length; i++)
                     {
                         if (!Buttons_setsize[i].gameObject.activeSelf) { continue; }
-                        Buttons_setsize[i].GetComponent<RectTransform>().sizeDelta = new Vector2(content_width, SideLength);
+                        //Buttons_setsize[i].GetComponent<RectTransform>().sizeDelta = new Vector2(content_width, SideLength);
                         Buttons_setsize[i].transform.localPosition = new Vector3(panel_width / 2.000f,temp,0f);
                         temp -= interval + SideLength;
                     }

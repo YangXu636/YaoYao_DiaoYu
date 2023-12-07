@@ -76,7 +76,7 @@ public class FormatLine : MonoBehaviour
         };
         Debug.Log(JsonUtility.ToJson(FishInformation));
         IsOK(true);
-        return new Hashtable { { fishlevel.value, JsonUtility.ToJson(FishInformation) } };
+        return new Hashtable { { fishlevel.value, JsonUtility.ToJson(FishInformation,true) } };
     }
 
     public void Test()
